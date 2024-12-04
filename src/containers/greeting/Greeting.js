@@ -25,7 +25,7 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                <span className="wave-emoji">{emoji("🚀")}</span>
               </h1>
               <p
                 className={
@@ -42,8 +42,8 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    href={require("./Resume.pdf")}
+                    download="Alex Fernandez Valladares Resume.pdf"
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
@@ -53,14 +53,10 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
               <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                src={require("../../assets/images/test.jpeg")}
               ></img>
-            )}
+            
           </div>
         </div>
       </div>

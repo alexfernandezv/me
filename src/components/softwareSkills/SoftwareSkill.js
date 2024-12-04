@@ -1,7 +1,7 @@
 import React from "react";
 import "./SoftwareSkill.scss";
 import {skillsSection} from "../../portfolio";
-
+import parse from 'html-react-parser';
 export default function SoftwareSkill() {
   return (
     <div>
@@ -14,7 +14,7 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
+                {parse(skills.svg)}
                 <p>{skills.skillName}</p>
               </li>
             );
