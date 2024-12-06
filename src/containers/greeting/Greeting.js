@@ -53,9 +53,7 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-              <img
-                src={require("../../assets/images/me1v3.jpeg")}
-              ></img>
+            <img src="https://i.ibb.co/tX84vZB/me1v4.jpg" alt="me1v4" border="0"></img>
             
           </div>
         </div>
