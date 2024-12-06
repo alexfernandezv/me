@@ -23,7 +23,7 @@ const greeting = {
   username: "alexfernandezv",
   title: "Hi everyone! It's Alex!",
   subTitle: emoji(
-    "A passionate DevOps Engineer specializing in cloud infrastructure ☁️, containerization 🐳, Kubernetes ☸️, and CI/CD pipelines 🔄"
+    "A passionate DevOps Engineer specializing in cloud infrastructure, containerization, Kubernetes and CI/CD pipelines 🐳☸️☁️🔄"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button

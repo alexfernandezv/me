@@ -15,10 +15,12 @@
 
 .greeting-main {
   display: flex;
+  gap: 47px
 }
 
 .subTitle {
   color: $subTitle !important;
+  text-align: justify;
 }
 
 .greeting-main {
