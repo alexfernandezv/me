@@ -46,7 +46,7 @@ export default function Greeting() {
                     download="Alex Fernandez Valladares Resume.pdf"
                     className="download-link-button"
                   >
-                    <Button text="Download my resume" />
+                    <Button text="My resume" />
                   </a>
                 )}
               </div>
